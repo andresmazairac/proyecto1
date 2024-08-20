@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <title>Cambir imagen usuario</title>
+</head>
+<body>
+  <form id="formulario">
+    <div>
+      <label for="image_uploads">Escoger imagen (PNG, JPG)</label>
+
+      <input
+        class="hecho"
+        type="file"
+        name="image_uploads"
+        accept=".jpg, .jpeg, .png"
+        multiple />
+    </div>
+    <div>
+      <button id="enviar" class="hecho">Submit</button>
+      <a href="/factura" class="hecho">cancelar</a>
+    </div>
+  </form>
+
+  <script type="module" src="../javascript/scriptimg.js"></script>
+</body>
+</html>

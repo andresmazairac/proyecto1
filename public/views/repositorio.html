@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body name="dentrorep">
+  <aside>
+    <nav>
+     <a href="/"> <img class="home" title="login" src="imagenes/home.svg"></a>
+     <a href="/factura"> <img title="Nueva factura" src="imagenes/news.svg"></a>
+
+    </nav>
+     <div><a href="/"><img class="logout" title="logout" src="imagenes/power.svg"></a></div>
+
+  </aside>
+
+
+
+  <header class= headert>
+    <div class="cabeza"><input type= "text" placeholder= "buscar"><span><img src="imagenes/bell.svg"> <img class="user" src="imagenes/Randy_Savage_1986.jpg"></span> </div>
+    <div class=facturillas>
+      <h2>Facturas</h2>
+      <a href="/factura"class="hecho">Crear nueva</a>
+    </div>
+    <div> 
+      <button class="brep" id= "brep1" type="reset""reset">Todas</button>
+           <button class="brep"id= "brep2">Pagadas</button>
+      <button class="brep" id="brep3">No pagadas</button>
+    </div>
+      <table>
+        <thead>
+          <th>Fecha</th>
+          <th>Nº Factura</th>
+          <th>tipo Cliente</th>
+          <th>Montante</th>
+          <th>Estado</th>
+          <th class="minith"></th>
+          <th class="minith"></th>
+          <th class="minith"></th>
+
+
+          </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    <table class="suma">
+      <tbody>
+        <tr>
+          <th class="sum">suma total:</th>
+          <th class="sumt1">0</th>
+        </tr>
+  </header>
+ 
+    
+      
+   <script type="module" src="../javascript/scriptrep.js"></script>
+</body>
